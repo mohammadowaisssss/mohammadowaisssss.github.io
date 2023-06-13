@@ -22,22 +22,91 @@
       text-align: center;
     }
 
-    h1 {
-      font-size: 2.5rem;
-      color: #333;
+    /* Example CSS for the navigation menu */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: #333;
+      padding: 1rem;
+      color: #fff;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1rem;
+    }
+
+    /* Example CSS for the hero section */
+    .hero {
+      background-image: url('path/to/your-image.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 5rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
       margin-bottom: 1rem;
     }
 
-    p {
-      font-size: 1.2rem;
-      color: #777;
+    .hero p {
+      font-size: 1.5rem;
+    }
+
+    /* Example CSS for the services section */
+    .services {
+      padding: 5rem 0;
+      background-color: #fff;
+    }
+
+    .services h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .services ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .services li {
+      text-align: center;
+      margin: 0 1rem;
     }
   </style>
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
   <div class="container">
-    <h1>Welcome to Alborz</h1>
-    <p>Empowering customers with exceptional experiences</p>
-  </div>
-</body>
-</html>
+    <section class="hero">
+      <h1>Welcome to Alborz</h1>
+      <p>Empowering customers with exceptional experiences</p>
+      <a href="#" class="button">Get Started</a>
+    </section>
+
+    <section class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>
+          <img src="path/to/service-icon-1.png" alt="Service 1">
+          <h3>Service 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li>
+          <img src="path/to/service-icon-2.png" alt="Service 2">
+          <h3>Service 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       
